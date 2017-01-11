@@ -1,0 +1,22 @@
+.contenido1, .contenido2{
+	height: 200px;
+	background-color: gray;
+}
+.info{
+	height: 100px;
+	background-color: black;
+	color: white;
+}
+
+.slider {
+	max-height: 0;	
+	display: none;
+	transition-property: all;
+	transition-duration: .5s;
+}
+
+.slider.closed {
+	display: block;
+	max-height: 500px;  /*approximate max height */
+	overflow-y: hidden;
+}
